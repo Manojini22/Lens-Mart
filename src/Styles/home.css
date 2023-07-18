@@ -1,18 +1,18 @@
-.navbar{
+.navbar,body .navbar{
     position: sticky;
     top: 0;
-    color: white;
+    /* color: white; */
     font-size: 2em;
     height: 50px;
+    background-color:#327492;
     text-align: center;
-    background-color: #3e0049 ;
-    font-family: 'Courier New', Courier, monospace;
-    
+    font-Family: 'Gill Sans';
+
 }
 
 .link{
   float: left;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -44,7 +44,8 @@
     margin-top: 6px;
     height: 100em;
   width: 100vw;
-  background-color: #8c6292;
+
+  /* background-color: #8c6292; */
 }
 
 .grid{
@@ -54,8 +55,7 @@
     /* height: 50px; */
     display: inline-table;
     border-radius: 30px;
-
-    
+    font-Family: 'Gill Sans';
     background-color: white;
     
 }
@@ -66,17 +66,16 @@ img{
     height: 9em;
     width: 13em;
     border-radius: 30px;
-    background: none;
+    background: #023f54;
 }
 
-.BL{
+ .container .BL{
     /* background-color: blueviolet; */
     float: left;
     font-size: 1.2em;
 }
 .BR{
     float: right;
-
     font-size: 1.2em;
     /* display: inline; */
 }
@@ -92,22 +91,27 @@ img{
     cursor: pointer;
     margin-bottom: 0%;
     padding-bottom: 0%;
-    margin-left: 0%;
+    /* margin-left: 0%; */
+    font-Family: 'Gill Sans';
+
 }
 
 #cartbutton:hover{
     
     font-size: 1.01em;
     /* height: 2.2em; */
-    background-color: #61226b;
+    background-color: #023f54;
     margin: 20px;
     border: 1px solid black;
     border-radius: 5px;
     color: white;
     cursor: pointer;
     margin-bottom: 0%;
-    margin-left: 0%;
+    /* margin-left: 0%; */
     padding-bottom: 0%;
+    font-Family: 'Gill Sans';
+
 }
+
 
 

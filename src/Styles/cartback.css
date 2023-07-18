@@ -2,7 +2,7 @@
 .frame1{
     height: 700px;
     margin-top: 20px;
-    background-color:#b39ab8;
+    background-color:#327492 ;
   }
   .cartTable{
     margin-top: 5%;
@@ -20,16 +20,19 @@
       width: 100%;
       border-collapse: collapse;
       margin-bottom: 20px;
-      font-family: Arial, sans-serif;
+      font-Family: 'Gill Sans';
   
       width: 100%;
       border-collapse: collapse;
       margin-bottom: 20px;
-      font-family: Arial, sans-serif;
+      /* font-family: Arial, sans-serif; */
+      font-Family: 'Gill Sans';
+
       font-size: 14px;
     }
     tbody{
       background-color: #dee1ff ;
+
     }
     table th,
     table td {
@@ -40,7 +43,7 @@
       /* border-bottom: 1px solid #ddd; */
     }
    thead{
-    background-color: #61226b ;
+    background-color: #327492  ;
     border-radius: 10px;
   
    } 

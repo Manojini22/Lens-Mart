@@ -62,7 +62,8 @@ export default function LoginPage(props) {
                 <input onChange={(e) => setData({...data,email:e.target.value})} className="input" id="email" placeholder="Enter email"></input><br />
                 <input onChange={(e) => setData({...data,password:e.target.value})} type="password" className="input" id="password" placeholder="Enter password"></input>
                 <div><button id="loginButton" onClick={handleLogin}>Login</button></div>
-                <div>New user?<Link to="/register" style={{ textDecoration: 'none' }} > Sign Up</Link></div>
+                <div style={{ textAlign: 'center', marginTop: '20px',fontWeight: 'bold' }}>
+                New user?<Link to="/register" style={{ textDecoration: 'none',fontWeight: 'bold',color: '#ad3e0b' }} > Sign Up</Link></div>
 
             </div>
         </>

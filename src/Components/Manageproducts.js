@@ -123,7 +123,7 @@ export default function Manageproducts() {
                   <th>Action</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody classname = "innerRow">
                 {products.map((product, index) => (
                   <tr key={index}>
                     <td>
@@ -142,7 +142,7 @@ export default function Manageproducts() {
             </table>
           </div>
           <div className="form-container">
-            <h2>Add Product</h2>
+           <div style={{textAlign:'center'}}> <h2>Add Product</h2></div>
             <input
               type="text"
               placeholder="enter product name"

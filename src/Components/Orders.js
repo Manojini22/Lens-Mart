@@ -47,7 +47,7 @@ export default function Orders({order,setcart}){
                           <tbody className="outerRow" key={index}>
                         {order.orderItems.map((product)=>(
                         <tr key={index}>
-                          <td>{index + 1}.&nbsp;&nbsp;{product.productName}</td>
+                          <td style ={{textAlign:"left"}}>{index + 1}.&nbsp;&nbsp;{product.productName}</td>
                           <td>{product.price}</td>
                           <td>{product.quantity}</td>
                         </tr>
@@ -62,7 +62,7 @@ export default function Orders({order,setcart}){
               ) : 
                   (<button onClick={handlePay} className="placeButton">Pay</button>)}
                   </div>
-                  </div> : <h1>No any order placed yet</h1> }
+                  </div> : <div style={{textAlign:"center"}}><h1>No any order placed yet !!</h1></div> }
                   
 
         </>

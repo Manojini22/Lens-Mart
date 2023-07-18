@@ -101,7 +101,9 @@ export default function Cart({cart,order,setorder,setcart}){
                   <button onClick={handleOrder} className="placeButton">Place order</button>
                   </div>
                  
-                  </div> : <h1>Cart is empty</h1> }
+                  </div> :<div style={{textAlign:"center"}}> <h1>Cart is empty !!</h1> </div>
+                  
+                  }
                   
 
         </>

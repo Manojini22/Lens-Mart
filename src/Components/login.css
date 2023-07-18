@@ -1,16 +1,20 @@
 .header{
-    color: white;
+    color: black;
+    font-weight: bold;
     font-size: 2em;
     height: 50px;
     /* width: 100vh; */
     text-align: center;
-    background-color:#684ba3;
+    font-Family: 'Gill Sans';
+    background-color:#327492;
+    /* background-color:#f15c48; */
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: blue;
+    color:black;
     font-size: 1.5em;
     opacity: 1;
+    font-Family: 'Gill Sans';
   }
 .input{
     
@@ -18,26 +22,32 @@
     width: 40%;
     padding: 3px;
     margin: 15px;
-    color: white;
+    color: black;
     border: none;
-    background-color: rgb(99, 99, 176);
+    /* background-color:#b3b3b3; */
+    background-color:#d7d1d1;
+    font-Family: 'Gill Sans';
 }
 
 #loginBox,#registerBox{
     text-align: center;
     align-items: center;
     margin: 70px;
+    font-Family: 'Gill Sans';
+   
 }
 
 #loginButton,#submitButton{
     color: white;
-    font-size: 1.5em;
+    font-size: 2em;
     border: none;
     height: 40px;
     width: 10%;
-    background-color:#684ba3;
+    background-color:#327492;
+    font-Family: 'Gill Sans';
     cursor: pointer;
-    margin: 20px;
+    margin: 20px ;
+    /* transition: transform 80ms ease-in; */
 }
 
 #loginButton:hover,#submitButton:hover{
@@ -46,7 +56,8 @@
     border: none;
     height: 40px;
     width: 10%;
-    background-color:grey;
+    background-color: #023f54;
     cursor: pointer;
     margin: 20px;
+    font-Family: 'Gill Sans';
 }

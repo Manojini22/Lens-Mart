@@ -1,16 +1,18 @@
 .page-container {
   background-color: grey;
   padding: 20px;
+  font-family: 'Gill Sans';
+
 }
 .navbar {
-  background-color: rgb(72, 8, 72);
-  color: white;
+  background-color: #327492;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   margin-bottom: 20px;
   margin-top: 0;
+  font-family: 'Gill Sans';
 }
 
 .menu {
@@ -47,30 +49,36 @@
 
 
   .form-container {
-      background-color: rgb(56, 9, 56);
+      background-color:#023f54;
       border-radius: 20px;
       padding: 20px;
       color: white;
       width: 20%;
       margin-top: 4%;
       height: 100%;
+      font-family: 'Gill Sans';
     }
     
 
 
 .table-container {
   width: 75%;
+  /* border-bottom: 25; */
+  font-family: 'Gill Sans';
+
 }
 
 
 .form-input {
   border-radius: 5px;
-  background-color: lightblue;
+  background-color: white;
   width: 90%;
   padding: 5px;
   margin-bottom: 14px;
   padding-left: 3px;
   height: 20px;
+  font-Family: 'Gill Sans';
+
 }
 
 .add-button {
@@ -78,14 +86,16 @@
   border-radius: 5px;
   height: 35px;
   width: 70px;
-  background-color: lightblue;
+  background-color: #327492;
   padding: 5px 10px;
-  color: black;
+  color: white;
   font-weight: bold;
   cursor: pointer;
   align-items: center;
   font-size: 1em;
   margin-left: 35%;
+  font-family: 'Gill Sans';
+
 }
 
 .add-button:hover {
@@ -128,4 +138,9 @@ body {
   background-color: grey;
   margin: 0;
   padding: 0;
+}
+table tr,
+ .table-container tbody.innerRow {
+  border-bottom: 10px solid #888989; 
+  margin-bottom: 10px; 
 }

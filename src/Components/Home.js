@@ -27,7 +27,7 @@ export default function Home({ Logout, cart, setcart }) {
         <>
             <NavBar Logout={Logout} />
             <div id="productHomeBody" className="homePage">
-                <h1 style={{ color: "white", fontFamily: 'Gill Sans' }}>Welcome</h1>
+                <h1 style={{ color: "black", fontFamily: 'Gill Sans' }}>Welcome</h1>
                 {user ? product.map((prod, idd) => (
                     <Product prod={prod} cart={cart} setcart={setcart} key={idd} id={id} />
                 )) : <h1>Admin</h1>}
